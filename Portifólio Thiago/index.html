@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="nav-fixed" id="nav-fixed">
+        <div class="interface ">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/64cbc2c22e4a8cedf33ffd4b_logo grao.svg" alt="">
+                </a>
+            </div>
+
+            <nav class=" menu-desktop">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Toda sua vida financeira em um só lugar de forma organizada e segura<span>.</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repellendus voluptates laboriosam odit corporis, quo, obcaecati nemo, asperiores adipisci molestiae eos. Hic alias perferendis cupiditate ipsam minus ut velit harum.</p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-topo-site">
+                        <img src="img/Captura de tela 2024-10-14 2016384.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <img src="img/organizacao.png" alt="">
+                        <h3>Organização orçamentária</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+                    </div>
+
+                    <div class="especialidades-box">
+                        <img src="img/investimento.png" alt="">
+                        <h3>investimentos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+
+                    <div class="especialidades-box">
+                        <img src="img/planejamento-estrategico.png" alt="">
+                        <h3>Planejamento personalizado</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img">
+                        <img src="img/Captura de tela 2024-10-14 2016384.png" alt="">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2 class="titulo-sobre">MUITO PRAZER, <span>SOU THIAGO PHILIPE.</span></h2>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ullam deleniti minus magni autem sunt delectus, doloremque deserunt animi esse architecto nemo, commodi placeat at dignissimos fuga, dicta voluptatum soluta.</P>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, illum saepe. Unde laborum nostrum asperiores, dolorem sed eos, expedita officiis dicta eaque illo, sit nam ipsa autem voluptatum cum modi.</p>
+                        <div class="btn-social">
+                            <a href=""><button><img src="img/logotipo-do-instagram.png" alt=""></button></a>
+                            <a href=""><button><img src="img/logotipo-do-linkedin.png" alt=""></button></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>DASHPLAN.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/Design\ sem\ nome\ \(4\).png);">
+                        <div class="overlay">Pagina 1</div>
+                </div>
+                    <div class="img-port" style="background-image: url(img/Design\ sem\ nome\ \(5\).png);">
+                        <div class="overlay">Pagina 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/Design\ sem\ nome\ \(6\).png);">
+                        <div class="overlay">Pagina 3</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                <form id="meuFormulario" >
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <input type="tel" name="number" placeholder="Seu telefone">
+                    <textarea name="message" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+
+                    <div class="btn-enviar">
+                        <button type="submit">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    // Inicializa o EmailJS com sua chave pública
+    (function() {
+        emailjs.init("3WNYFC9DWudoEOhJS"); // Substitua por sua chave pública
+    })();
+
+    document.getElementById('meuFormulario').addEventListener('submit', function(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+
+        // Envia o formulário usando o EmailJS
+        emailjs.sendForm('service_hwpois7', 'template_3s3d4ke', this)
+            .then(function(response) {
+                console.log('Sucesso:', response.status, response.text);
+                alert('Email enviado com sucesso!');
+            }, function(error) {
+                console.log('Erro:', error);
+                alert('Falha ao enviar o email.');
+            });
+    });
+</script>
+
+</body>
+</html>
